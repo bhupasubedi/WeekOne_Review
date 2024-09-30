@@ -4,11 +4,13 @@ class Calculator {
 
 
     public static void main(String[] args) {
-        int sum = addition (numberOne: 200, number: 500);
+        int sum = addition( 200,500);
+        System.out.println(sum);
+    }
 // add
         public static int addition(int numberOne, int numberTwo){
             return numberOne + numberTwo;
-            System.out.println(sum);
+
 
 
 
@@ -25,6 +27,3 @@ class Calculator {
 
 
 // static division method
-
-
-}
