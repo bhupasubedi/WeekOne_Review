@@ -4,22 +4,16 @@ class Calculator {
 
 
     public static void main(String[] args) {
-        Calculator cal = new Calculator();
+        int sum = addition (numberOne: 200, number: 500);
+// add
+        public static int addition(int numberOne, int numberTwo){
+            return numberOne + numberTwo;
+            System.out.println(sum);
 
 
 
+        }
 
-
-
-// static add method
-
-        public static int add(int num1, int num2){
-        public static int sum(int num 1+ int num2);
-        int add = sum(5, 10)
-
-
-           return num1 +num2;
-}
 
     }
 
